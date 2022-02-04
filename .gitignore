@@ -172,3 +172,5 @@ Thumbs.db
 
 go/.idea/*
 java/.idea/*
+cpp/.idea/*
+cpp/cmake-build-debug/*
