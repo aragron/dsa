@@ -9,6 +9,8 @@
 
 #include <cstdlib>
 #include "vector.h"
+#include "Vector_search_binary_C.h"
+#include "Vector_search_fibonaccian_B.h"
 
 #pragma once
 
@@ -19,5 +21,8 @@ Rank Vector<T>::search(T const &e, Rank lo, Rank hi) const { //assert: 0 <= lo <
            binSearch(_elem, e, lo, hi) : fibSearch(_elem, e, lo, hi);
 }
 
-
+template<typename T>
+Rank Vector<T>::search(const T &e) const {
+    { return (0 >= _size) ? -1 : search(e, 0, _size); }
+}
 

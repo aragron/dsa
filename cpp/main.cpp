@@ -7,6 +7,10 @@
 #include "vector/vector_bracket.h"
 #include "vector/vector_find.h"
 #include "vector/permute.h"
+#include "vector/vector_uniquify.h"
+#include "vector/vector_sort.h"
+#include "vector/vector_deduplicate.h"
+#include "vector/vector_search.h"
 
 
 using namespace std;
@@ -21,6 +25,8 @@ void test01()
     vc.insert(1,11);
     vc.insert(2,12);
     vc.insert(3,13);
+    vc.insert(4,13);
+    vc.insert(13);
     int size = vc.size();
     cout << "size: " << size << endl;
     cout << "=============traverse=============" << endl;
@@ -37,9 +43,18 @@ void test01()
     vc.remove(1);
     vc.traverse(visit);
     cout << endl;
-    cout << "===============remove================" << endl;
+    cout << "===============permute================" << endl;
     permute(vc);
     vc.traverse(visit);
+    cout << endl;
+    cout << "===============sort================" << endl;
+    //vc.deduplicate();
+    vc.sort();
+    vc.uniquify();
+    vc.traverse(visit);
+    cout << endl;
+    cout << "===============search================" << endl;
+    cout << vc.search(13) << endl;
     cout << endl;
 }
 

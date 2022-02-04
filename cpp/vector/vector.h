@@ -52,8 +52,8 @@ public:
     bool empty() const { return !_size; } //判空
     Rank find(T const &e) const { return find(e, 0, _size); } //无序向量整体查找
     Rank find(T const &e, Rank lo, Rank hi) const; //无序向量区间查找
-    Rank search(T const &e) const //有序向量整体查找
-    { return (0 >= _size) ? -1 : search(e, 0, _size); }
+    Rank search(T const &e) const; //有序向量整体查找
+    //{ return (0 >= _size) ? -1 : search(e, 0, _size); }
 
     Rank search(T const &e, Rank lo, Rank hi) const; //有序向量区间查找
 // 可写访问接口
@@ -66,17 +66,17 @@ public:
     Rank insert(T const &e) { return insert(_size, e); } //默认作为末元素插入
 
     void sort(Rank lo, Rank hi); //对[lo, hi)排序
-    void sort() { sort(0, _size); } //整体排序
+    void sort(); //整体排序
     void unsort(Rank lo, Rank hi); //对[lo, hi)置乱
-    void unsort() { unsort(0, _size); } //整体置乱
+    void unsort() ; //整体置乱
     int deduplicate(); //无序去重
     int uniquify(); //有序去重
     // 遍历
     void traverse(void (* )(T &)); //遍历（使用函数指针，只读或局部性修改）
-    template<typename VST>
-    void traverse(VST &); //遍历（使用函数对象，可全局性修改）
+    template<typename VST> void traverse(VST &); //遍历（使用函数对象，可全局性修改）
     T get(Rank r);
     void put(Rank r, T const &e);
+    int disordered() const;
 };
 
 
