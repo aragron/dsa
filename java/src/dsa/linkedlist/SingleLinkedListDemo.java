@@ -69,10 +69,6 @@ class SingleLinkedList {
         }
     }
 
-    public void insert(HeroNode node) {
-
-    }
-
     public void update(HeroNode newNode) {
         if (head.next == null) {
             System.out.println("链表为空");
