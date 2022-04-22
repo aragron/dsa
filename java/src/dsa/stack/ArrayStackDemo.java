@@ -1,4 +1,4 @@
-package dsa.sort.stack;
+package dsa.stack;
 
 import java.util.Scanner;
 

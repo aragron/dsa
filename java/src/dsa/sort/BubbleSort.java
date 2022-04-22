@@ -31,13 +31,12 @@ public class BubbleSort {
 
     public static int[] bubbleSort(int[] arr) {
         long count = 0;
-        int temp = 0;
         boolean flag = false;
         for (int j = arr.length; j >= 1; j--) {
             for (int i = 0; i < j - 1; i++) {
                 if (arr[i] > arr[i + 1]) {
                     flag = true;
-                    temp = arr[i];
+                    int temp = arr[i];
                     arr[i] = arr[i + 1];
                     arr[i + 1] = temp;
                 }
