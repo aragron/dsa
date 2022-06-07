@@ -14,8 +14,8 @@ public class BubbleSort {
 
         System.out.println("---------------------");
         int[] arr = new int[80000];
-        for(int i =0; i < 80000;i++) {
-            arr[i] = (int)(Math.random() * 800000); //生成一个[0, 8000000) 数
+        for (int i = 0; i < 80000; i++) {
+            arr[i] = (int) (Math.random() * 800000); //生成一个[0, 8000000) 数
         }
 
         DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
@@ -44,12 +44,31 @@ public class BubbleSort {
             }
             if (!flag) {
                 break;
-            }else {
+            } else {
                 flag = false;
             }
         }
-        System.out.println("排序次数："+count);
+        System.out.println("排序次数：" + count);
         return arr;
+    }
+
+    public static void bubbleSort2(int[] arr) {
+        if (arr == null || arr.length < 2) {
+            return;
+        }
+        for (int j = arr.length; j > 0; j--) {
+            for (int i = 0; i < j; i++) {
+                if (arr[i] > arr[i + 1]) {
+                    swap(arr, i, i + 1);
+                }
+            }
+        }
+    }
+
+    public static void swap(int[] arr, int i, int j) {
+        arr[i] = arr[i] ^ arr[j];
+        arr[j] = arr[i] ^ arr[j];
+        arr[i] = arr[i] ^ arr[j];
     }
 }
 

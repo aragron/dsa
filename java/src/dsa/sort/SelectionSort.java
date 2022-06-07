@@ -5,8 +5,11 @@ import java.util.Arrays;
 public class SelectionSort {
     public static void main(String[] args) {
         int[] input = {-1, -2, 31, 9, 10};
-        int[] ints = selectSort(input);
-        System.out.println("最大值排序：" + Arrays.toString(ints));
+        //int[] ints = selectSort(input);
+        //System.out.println("最大值排序：" + Arrays.toString(ints));
+
+        selectionSort(input);
+        System.out.println(Arrays.toString(input));
     }
 
     public static int[] selectSort(int[] arr) {
@@ -31,5 +34,23 @@ public class SelectionSort {
         return arr;
     }
 
+    public static void selectionSort(int[] arr) {
+        if (arr == null || arr.length < 2) {
+            return;
+        }
+        for (int i = 0; i < arr.length - 1; i++) {
+            int minIndex = i;
+            for (int j = i+1; j < arr.length; j++) {
+                minIndex = arr[j] < arr[minIndex] ? j : minIndex;
+            }
+            swap(arr, i, minIndex);
+        }
+    }
+
+    public static void swap(int[] arr, int i, int j) {
+        int tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+    }
 
 }

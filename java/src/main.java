@@ -1,10 +1,11 @@
-import java.time.chrono.MinguoChronology;
-import java.util.Arrays;
-
 public class main {
     public static void main(String[] args) {
-        String i = Integer.toBinaryString(5);
-        System.out.println(i);
+
+        Integer x = 23;
+        Integer y = x>>>1;
+        System.out.println(y);
+        //String i = Integer.toBinaryString(5);
+        //System.out.println(i);
     }
 
     public static int countOdds(int low, int high) {
