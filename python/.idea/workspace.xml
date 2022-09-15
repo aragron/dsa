@@ -1,7 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0747bde-dcb0-4c2f-b0c5-743870376da7" name="Changes" comment="" />
+    <list default="true" id="b0747bde-dcb0-4c2f-b0c5-743870376da7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode125.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode209.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode283.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode345.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode75.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/leetcode88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/array/review75.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/arrayAndString/leetcode35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/arrayAndString/leetcode56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/arrayAndString/leetcode724.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/MyHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/MyOldHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/MyOldHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode1004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode159.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode202.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode205.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode219.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode424.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/src/dsa/hash/leetcode599.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review1004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review125.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review159.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review202.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review205.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review209.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review219.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review283.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review345.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review424.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review599.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review705.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/test/review88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mergeExcel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mergeExcel2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testColor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/dsa/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/dsa/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,20 +94,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/practise-code/dsa/python"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/practise-code/dsa/python&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\practise-code\dsa\python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bubble_sort">
+  <component name="RunManager" selected="Python.mergeExcel2 (1)">
     <configuration name="bubble_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,8 +151,74 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mergeExcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mergeExcel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mergeExcel2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mergeExcel2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mergeExcel2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\practise-code\dsa\python\mergeExcel2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mergeExcel2 (1)" />
+        <item itemvalue="Python.mergeExcel2" />
+        <item itemvalue="Python.mergeExcel" />
         <item itemvalue="Python.bubble_sort" />
       </list>
     </recent_temporary>

@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class main {
     public static void main(String[] args) {
 
@@ -6,6 +8,7 @@ public class main {
         System.out.println(y);
         //String i = Integer.toBinaryString(5);
         //System.out.println(i);
+        ArrayList<Integer> list = new ArrayList<>();
     }
 
     public static int countOdds(int low, int high) {

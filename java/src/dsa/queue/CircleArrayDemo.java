@@ -64,9 +64,6 @@ public class CircleArrayDemo {
         }
 
         public boolean isFull() {
-            System.out.printf("front: %d\n", front);
-            System.out.printf("rear: %d\n", rear);
-            System.out.printf("arr长度: %d\n", arr.length);
             return (rear + 1) % maxSize == front;
         }
 
